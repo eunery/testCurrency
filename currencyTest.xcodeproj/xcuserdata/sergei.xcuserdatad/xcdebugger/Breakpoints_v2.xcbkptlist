@@ -3,4 +3,70 @@
    uuid = "2A7DD819-CFE2-4631-B768-67354A1DB025"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "177E8DE2-D80D-48BF-AC1C-7CA18BA3B447"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "currencyTest/Network/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "getCurrentCurrency(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "177E8DE2-D80D-48BF-AC1C-7CA18BA3B447 - 90ad06d14627212c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in currencyTest.APIService.getCurrentCurrency(completion: (Swift.Result&lt;Swift.Double, currencyTest.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "currencyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergei/XcodeProjects/currencyTest/currencyTest/Network/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "177E8DE2-D80D-48BF-AC1C-7CA18BA3B447 - 90ad06d14627212c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in currencyTest.APIService.getCurrentCurrency(completion: (Swift.Result&lt;Swift.Double, currencyTest.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "currencyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergei/XcodeProjects/currencyTest/currencyTest/Network/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "516">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BC3D9F6-FA95-46D9-9BAB-9BCD844441F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "currencyTest/Network/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "getCurrentCurrency(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

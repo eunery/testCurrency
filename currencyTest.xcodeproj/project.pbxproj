@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85160F842A646FF600E428D0 /* CurrentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85160F832A646FF600E428D0 /* CurrentViewModel.swift */; };
+		85160F862A64700000E428D0 /* MonthlyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85160F852A64700000E428D0 /* MonthlyViewModel.swift */; };
+		85160F892A65815A00E428D0 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85160F882A65815A00E428D0 /* APIService.swift */; };
+		85160F8B2A658D1700E428D0 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85160F8A2A658D1700E428D0 /* APIError.swift */; };
+		85160F8D2A658F7C00E428D0 /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85160F8C2A658F7C00E428D0 /* APIServiceProtocol.swift */; };
 		8598B6112A5045AD00A1F728 /* currencyTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598B6102A5045AD00A1F728 /* currencyTestApp.swift */; };
 		8598B6132A5045AD00A1F728 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598B6122A5045AD00A1F728 /* ContentView.swift */; };
 		8598B6152A5045AF00A1F728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8598B6142A5045AF00A1F728 /* Assets.xcassets */; };
@@ -40,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85160F832A646FF600E428D0 /* CurrentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentViewModel.swift; sourceTree = "<group>"; };
+		85160F852A64700000E428D0 /* MonthlyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyViewModel.swift; sourceTree = "<group>"; };
+		85160F882A65815A00E428D0 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		85160F8A2A658D1700E428D0 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		85160F8C2A658F7C00E428D0 /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
 		8598B60D2A5045AD00A1F728 /* currencyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = currencyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8598B6102A5045AD00A1F728 /* currencyTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currencyTestApp.swift; sourceTree = "<group>"; };
 		8598B6122A5045AD00A1F728 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +94,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85160F822A646FE500E428D0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				85160F832A646FF600E428D0 /* CurrentViewModel.swift */,
+				85160F852A64700000E428D0 /* MonthlyViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		85160F872A65814900E428D0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				85160F882A65815A00E428D0 /* APIService.swift */,
+				85160F8A2A658D1700E428D0 /* APIError.swift */,
+				85160F8C2A658F7C00E428D0 /* APIServiceProtocol.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		8598B6042A5045AD00A1F728 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +136,8 @@
 		8598B60F2A5045AD00A1F728 /* currencyTest */ = {
 			isa = PBXGroup;
 			children = (
+				85160F872A65814900E428D0 /* Network */,
+				85160F822A646FE500E428D0 /* ViewModels */,
 				85D0A6902A51D47100F5D864 /* Data */,
 				8598B6412A50B7C300A1F728 /* Views */,
 				8598B6402A50B79300A1F728 /* Models */,
@@ -301,11 +332,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85160F842A646FF600E428D0 /* CurrentViewModel.swift in Sources */,
 				8598B63B2A5045C400A1F728 /* Currency.swift in Sources */,
 				85A305AA2A577315000DA0B1 /* Parser.swift in Sources */,
+				85160F8D2A658F7C00E428D0 /* APIServiceProtocol.swift in Sources */,
 				8598B6452A50B80700A1F728 /* Monthly.swift in Sources */,
+				85160F892A65815A00E428D0 /* APIService.swift in Sources */,
+				85160F8B2A658D1700E428D0 /* APIError.swift in Sources */,
 				8598B6132A5045AD00A1F728 /* ContentView.swift in Sources */,
 				8598B64A2A50D1B300A1F728 /* AppDelegate.swift in Sources */,
+				85160F862A64700000E428D0 /* MonthlyViewModel.swift in Sources */,
 				8598B6112A5045AD00A1F728 /* currencyTestApp.swift in Sources */,
 				8598B6432A50B7FB00A1F728 /* Current.swift in Sources */,
 				85D0A6922A51D48E00F5D864 /* KeychainManager.swift in Sources */,
